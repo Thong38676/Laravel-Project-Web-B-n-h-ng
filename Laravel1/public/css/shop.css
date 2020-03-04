@@ -1,0 +1,866 @@
+.khung {
+	 width: 100%;
+}
+ .khung a:hover {
+	 text-decoration: none;
+}
+ @media screen and (max-width: 480px) {
+	 .khung a.carousel-control-prev {
+		 display: none;
+	}
+}
+ @media screen and (max-width: 480px) {
+	 .khung a.carousel-control-next {
+		 display: none;
+	}
+}
+ .khung .hung {
+	 width: 100%;
+	 float: left;
+}
+ .khung .hung .fixtop {
+	 float: left;
+	 width: 100%;
+	 height: auto;
+	 z-index: 10;
+	 transition: top 1.5s;
+}
+ .khung .hung .fixtop .header {
+	 float: left;
+	 width: 100%;
+	 height: auto;
+	 background: #0099cc;
+}
+ .khung .hung .fixtop .header span {
+	 font-weight: normal;
+	 font-size: 14px;
+}
+ .khung .hung .fixtop .header i {
+	 color: #eeeeee;
+	 padding: 5px 5px 2px 5px;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .fixtop .header i {
+		 float: left;
+	}
+}
+ .khung .hung .fixtop .header i.gach {
+	 float: left;
+	 margin-top: -5px;
+	 font-size: 18px;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .fixtop .header i.gach {
+		 display: none;
+	}
+}
+ .khung .hung .fixtop .header i.gach2 {
+	 float: right;
+	 margin-top: -5px;
+	 font-size: 18px;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .fixtop .header i.gach2 {
+		 display: none;
+	}
+}
+ .khung .hung .fixtop .header i.fa-clock {
+	 float: left;
+	 margin-left: 8%;
+}
+ .khung .hung .fixtop .header i.fa-location-arrow {
+	 float: left;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .fixtop .header i.fa-location-arrow {
+		 display: none;
+	}
+}
+ .khung .hung .fixtop .header i.fa-phone {
+	 padding: 5px 40px 5px 38px;
+}
+ .khung .hung .fixtop .header i.fahr {
+	 float: right;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .fixtop .header i.fahr {
+		 float: left;
+	}
+}
+ .khung .hung .fixtop .header i.fa-twitter {
+	 margin-right: 8%;
+}
+ .khung .hung .fixtop .header a:hover i {
+	 color: white;
+}
+ .khung .hung .fixtop .hnavbar {
+	 float: left;
+	 width: 100%;
+	 height: auto;
+	 background: rgba(255,255,255,0.8);
+}
+ .khung .hung .fixtop .hnavbar .hlogo {
+	 float: left;
+	 width: 20%;
+	 height: auto;
+	 color: red;
+	 margin: 0% 5% 2% 8%;
+}
+ .khung .hung .fixtop .hnavbar .hlogo img {
+	 width: 100%;
+}
+ .khung .hung .fixtop .hnavbar .hmenu {
+	 float: left;
+	 width: 65%;
+	 height: auto;
+}
+ .khung .hung .fixtop .hnavbar .hmenu a.nav-link {
+	 font-size: 20px;
+	 float: left;
+	 margin-left: 20px;
+	 font-family: aria;
+}
+ .khung .hung .fixtop .hnavbar .hmenu a.nav-link:hover {
+	 color: #0099cc;
+}
+ .khung .hung .fixtop .hnavbar .hmenu a.hblue {
+	 color: #0099cc;
+}
+ .khung .hung .fixtop .hnavbar .hmenu i.fah {
+	 float: left;
+	 color: gray;
+	 margin: 15px 0px 0px 10px;
+}
+ .khung .hung .fixtop .hnavbar .hmenu i.fah:hover {
+	 color: #0099cc;
+}
+ .khung .hung .hslide {
+	 position: relative;
+	 float: left;
+	 width: 100%;
+}
+
+ .khung .hung .hslide img.d-block {
+	 transform: scale(1);
+	 overflow: hidden;
+	 transition: all 1.5s;
+}
+}
+ .khung .hung .hslide img.d-block:hover {
+	 transform: scale(1.1);
+}
+ .khung .hung .hslide .htitle {
+	 position: absolute;
+	 width: 600px;
+	 height: 300px;
+	 top: 200px;
+	 left: 150px;
+	 text-align: center;
+}
+ @media screen and (max-width: 780px) {
+	 .khung .hung .hslide .htitle {
+		 display: none;
+	}
+}
+ .khung .hung .hslide .htitle h2 {
+	 margin: 0;
+	 font-family: serif;
+	 font-size: 50px;
+}
+ .khung .hung .hslide .htitle p.hskin {
+	 position: absolute;
+	 color: pink;
+	 font-size: 100px;
+	 top: 30px;
+	 left: 0;
+	 animation: myAnimation 2s ease-out infinite;
+}
+ @keyframes myAnimation {
+	 .khung .hung .hslide .htitle p.hskin from {
+		 left: 0px;
+	}
+	 .khung .hung .hslide .htitle p.hskin to {
+		 left: 50px;
+	}
+}
+ .khung .hung .hslide .htitle span {
+	 color: #0099cc;
+}
+ .khung .hung .hslide .htitle hr {
+	 margin: 0;
+	 width: 20%;
+	 margin-left: 40%;
+	 padding-top: 1px;
+}
+ .khung .hung .hslide .htitle p.titlep {
+	 font-size: 20px;
+	 font-style: italic;
+	 font-family: URW Chancery L, cursive;
+}
+ .khung .hung .hslide .htitle2 {
+	 position: absolute;
+	 width: 600px;
+	 height: 300px;
+	 top: 200px;
+	 right: 150px;
+	 text-align: center;
+}
+ @media screen and (max-width: 780px) {
+	 .khung .hung .hslide .htitle2 {
+		 display: none;
+	}
+}
+ .khung .hung .hslide .htitle2 h2 {
+	 margin: 0;
+	 font-family: serif;
+	 font-size: 50px;
+}
+ .khung .hung .hslide .htitle2 p.hskin {
+	 position: absolute;
+	 color: pink;
+	 font-size: 100px;
+	 top: 30px;
+	 left: 0;
+	 animation: myAnimation 2s ease-out infinite;
+}
+ @keyframes myAnimation {
+	 .khung .hung .hslide .htitle2 p.hskin from {
+		 right: 0px;
+	}
+	 .khung .hung .hslide .htitle2 p.hskin to {
+		 right: 50px;
+	}
+}
+ .khung .hung .hslide .htitle2 span {
+	 color: #0099cc;
+}
+ .khung .hung .hslide .htitle2 hr {
+	 margin: 0;
+	 width: 20%;
+	 margin-left: 40%;
+	 padding-top: 1px;
+}
+ .khung .hung .hslide .htitle2 p.titlep {
+	 font-size: 20px;
+	 font-style: italic;
+	 font-family: URW Chancery L, cursive;
+}
+ .khung .hung .himage {
+	 float: left;
+	 width: 100%;
+	 height: auto;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+}
+ .khung .hung .himage .himagesmall {
+	 float: left;
+	 width: 100%;
+	 height: 100%;
+	 background: snow;
+	 color: black;
+}
+ .khung .hung .himage .himagesmall .hleft {
+	 float: left;
+	 margin-left: 11%;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .himage .himagesmall .hleft {
+		 margin-left: 0%;
+	}
+}
+ .khung .hung .himage .himagesmall .hpic {
+	 float: left;
+	 width: 25%;
+	 height: auto;
+	 text-align: center;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .hung .himage .himagesmall .hpic {
+		 width: 100%;
+	}
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12 {
+	 margin: 4% 0%;
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12 i.fa-angry {
+	 font-size: 30px;
+	 padding-top: 40px;
+	 color: #eeeeee;
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12 h3, .khung .hung .himage .himagesmall .hpic .col-md-12 a, .khung .hung .himage .himagesmall .hpic .col-md-12 p {
+	 color: #eeeeee;
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12 h3 {
+	 padding: 10px 0px;
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12 a {
+	 font-weight: bold;
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12 a:hover {
+	 text-decoration: none;
+}
+ .khung .hung .himage .himagesmall .hpic .col-md-12:hover {
+	 border: 1px solid white;
+	 background: rgba(249,99,192,0.5);
+}
+ .khung .dung {
+	 width: 100%;
+	 height: auto;
+	 float: left;
+	 text-align: center;
+}
+ .khung .dung h3 {
+	 color: black;
+	 padding-top: 3%;
+}
+ .khung .dung h3:hover {
+	 color: black;
+}
+ .khung .dung .col-md-12 {
+	 float: left;
+}
+ .khung .dung .col-md-12 a.prev1 {
+	 width: 50px;
+	 height: 50px;
+	 background: gray;
+	 margin-left: 90%;
+	 margin-top: 5%;
+	 border-radius: 5px;
+}
+ .khung .dung .col-md-12 a.next1 {
+	 width: 50px;
+	 height: 50px;
+	 background: gray;
+	 margin-top: 5%;
+	 margin-right: 2%;
+	 border-radius: 5px;
+}
+ .khung .dung .col-md-12 .col-md-3 {
+	 float: left;
+	 margin: 2% 0%;
+}
+ .khung .dung .col-md-12 .col-md-3 img {
+	 width: 100%;
+	 height: 200px;
+	 transform: scale(1);
+	 overflow: hidden;
+	 transition: all 1.5s;
+}
+ .khung .dung .col-md-12 .col-md-3 img:hover {
+	 transform: scale(1.1);
+}
+ .khung .dung .col-md-12 .col-md-4 {
+	 float: left;
+	 margin: 2% 0%;
+}
+ .khung .dung .col-md-12 .col-md-4 img {
+	 width: 100%;
+	 height: 230px;
+	 transform: scale(1);
+	 overflow: hidden;
+	 transition: all 1.5s;
+}
+}
+ .khung .dung .col-md-12 .col-md-4 img:hover {
+	 transform: scale(1.1);
+}
+ .khung .dung .dungslide2 {
+	 background-image: url(img/dung5.jpg);
+	 -webkit-background-size: 100% 100%;
+	 background-size: 100% 100%;
+}
+ .khung .dung .dungslide2 a {
+	 color: white;
+}
+ .khung .dung .dungslide2 a.prev2 {
+	 width: 50px;
+	 height: 50px;
+	 background: gray;
+	 margin-left: 90%;
+	 margin-top: 5%;
+	 border-radius: 5px;
+}
+ .khung .dung .dungslide2 a.next2 {
+	 width: 50px;
+	 height: 50px;
+	 background: gray;
+	 margin-top: 5%;
+	 margin-right: 2%;
+	 border-radius: 5px;
+}
+ .khung .dung .dungslide2 .col-md-4 {
+	 position: relative;
+}
+ .khung .dung .dungslide2 .col-md-4 .dungtitle {
+	 position: absolute;
+	 bottom: 0;
+	 left: 3.5%;
+	 width: 93.1%;
+	 height: 50px;
+	 background: #ffccff;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .dung .dungslide2 .col-md-4 .dungtitle {
+		 width: 92%;
+		 left: 4%;
+	}
+}
+ .khung .dung .dungslide2 .col-md-4 .dungtitle a {
+	 color: #ff66cc;
+	 float: left;
+	 padding-top: 3%;
+	 margin-left: 10%;
+	 font-size: 20px;
+}
+ .khung .dung .dungslide2 .col-md-4 .dungtitle a:hover {
+	 text-decoration: none;
+}
+ .khung .dung .dungslide2 .col-md-4 .dungtitle span {
+	 float: left;
+	 color: #003366;
+	 padding-top: 3%;
+	 margin-left: 30%;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .dung .dungslide2 .col-md-4 .dungtitle span {
+		 margin-left: 5%;
+		 padding-top: 4%;
+	}
+}
+ .khung .thong {
+	 width: 100%;
+	 float: left;
+	 height: auto;
+	 margin-bottom: 5%;
+}
+ .khung .thong .thongcard {
+	 float: left;
+}
+ .khung .thong .thongcard h3 {
+	 padding-top: 5%;
+	 padding-left: 8%;
+}
+ .khung .thong .thongcard .gach {
+	 float: left;
+	 height: 1px;
+	 background: #777;
+	 margin-left: 10%;
+	 margin: 20px;
+}
+ .khung .thong .thongcard .thongsmallcard {
+	 float: left;
+	 margin-left: 5%;
+}
+ .khung .thong .thongcard .thongsmallcard .thongpic {
+	 float: left;
+}
+ .khung .thong .thongcard .thongsmallcard .thongpic img {
+	 width: 100%;
+	 transform: scale(1);
+	 overflow: hidden;
+	 transition: all 1.5s;
+}
+ .khung .thong .thongcard .thongsmallcard .thongpic img:hover {
+	 transform: scale(1.1);
+}
+ .khung .thong .thongcard .thongsmallcard .col-md-1 {
+	 float: left;
+}
+ .khung .thong .thongcard .thongsmallcard .col-md-1 p {
+	 margin: 0;
+	 font-weight: bold;
+}
+ .khung .thong .thongcard .thongsmallcard .col-md-1 p.p03 {
+	 font-size: 30px;
+}
+ .khung .thong .thongcard .thongsmallcard .col-md-1 hr {
+	 height: 3px;
+	 background: #003366;
+}
+ .khung .thong .thongcard .thongsmallcard .thongtitle2 {
+	 float: left;
+}
+ .khung .thong .thongcard .thongsmallcard .thongtitle2 h4 {
+	 color: pink;
+}
+ .khung .thong .thongcard .thongsmallcard .thongtitle2 h4:hover {
+	 color: #cc0066;
+}
+ .khung .thong .thongcard .thongsmallcard .thongtitle2 i {
+	 font-size: 15px;
+	 padding-right: 10px;
+}
+ .khung .thong .thongcard .thongsmallcard .thongtitle2 i a {
+	 color: #777;
+}
+ .khung .thong .thongcard .thongsmallcard .thongtitle2 i a:hover {
+	 color: black;
+}
+ .khung .thong .thongvideo {
+	 float: left;
+	 padding-top: 3%;
+}
+ .khung .thong .thongvideo iframe {
+	 float: left;
+	 width: 100%;
+	 height: 230px;
+}
+ .khung .thong .thongvideo img {
+	 width: 100%;
+	 margin-bottom: 5%;
+}
+ .khung .thong .thongvideo a.prev3 {
+	 width: 35px;
+	 height: 35px;
+	 background: gray;
+	 margin-left: 83%;
+	 border-radius: 5px;
+}
+ .khung .thong .thongvideo a.next3 {
+	 width: 35px;
+	 height: 35px;
+	 background: gray;
+	 border-radius: 5px;
+}
+ .khung .thong .thongvideo .carousel-item .thongtitle3 {
+	 position: absolute;
+	 top: 5%;
+	 left: 5%;
+	 width: 90%;
+	 height: 90%;
+}
+ .khung .thong .thongvideo .carousel-item .thongtitle3 p {
+	 float: left;
+	 margin: 0;
+	 font-style: italic;
+	 padding-top: 0px;
+}
+ .khung .thong .thongvideo .carousel-item .thongtitle3 span.quote {
+	 float: left;
+	 font-size: 80px;
+	 font-family: "Times New Roman", Georgia, Serif;
+	 font-style: italic;
+	 padding-right: 10px;
+	 padding-top: -30px;
+}
+ .khung .thong .thongvideo .carousel-item .thongtitle3 img {
+	 float: right;
+	 margin-right: 40%;
+	 width: 50px;
+	 height: 50px;
+	 border-radius: 50%;
+}
+ .khung .thong .thongvideo .carousel-item .thongtitle3 span.jonh {
+	 float: right;
+	 color: blue;
+	 padding-right: 6%;
+}
+ .khung .nghia {
+	 width: 100%;
+	 float: left;
+	 background: #eeeeee;
+	 margin-bottom: 5%;
+}
+ .khung .nghia .nghiaslide {
+	 margin: auto;
+	 text-align: center;
+	 margin-bottom: 5%;
+}
+ .khung .nghia .nghiaslide a.prev4 {
+	 width: 50px;
+	 height: 50px;
+	 background: gray;
+	 margin-left: 90%;
+	 margin-top: 2%;
+	 border-radius: 5px;
+}
+ .khung .nghia .nghiaslide a.next4 {
+	 width: 50px;
+	 height: 50px;
+	 background: gray;
+	 margin-top: 2%;
+	 margin-right: 2%;
+	 border-radius: 5px;
+}
+ .khung .nghia .nghiaslide .btright {
+	 margin-right: 1%;
+}
+ .khung .nghia .nghiaslide h3 {
+	 color: pink;
+	 padding-top: 30px;
+}
+ .khung .nghia .nghiaslide h3:hover {
+	 color: #cc0066;
+}
+ .khung .nghia .nghiaslide a {
+	 color: black;
+}
+ .khung .nghia .nghiaslide .col-md-4 {
+	 float: left;
+	 position: relative;
+}
+ .khung .nghia .nghiaslide .col-md-4 img {
+	 width: 100%;
+	 border-bottom: 1px solid red;
+}
+ .khung .nghia .nghiaslide .col-md-4 .nghiatitle {
+	 position: absolute;
+	 width: 93.3%;
+	 height: 50px;
+	 bottom: 1px;
+	 left: 3.3%;
+	 background: #eeeeee;
+}
+ .khung .nghia .nghiaslide .col-md-4 .nghiatitle a {
+	 color: #ff66cc;
+	 float: left;
+	 font-size: 20px;
+}
+ .khung .nghia .nghiaslide .col-md-4 .nghiatitle span {
+	 color: #003366;
+	 float: right;
+	 padding-top: 2%;
+}
+ .khung .nghia .nghiaimage {
+	 float: left;
+	 background-image: url(img/nghiacogai.jpg);
+	 -webkit-background-size: cover;
+	 background-size: cover;
+}
+ .khung .nghia .nghiaimage p.nghiap {
+	 text-align: center;
+	 color: #eeeeee;
+	 margin: 0;
+	 font-size: 40px;
+	 font-style: italic;
+}
+ .khung .nghia .nghiaimage p.nghiamg {
+	 margin-top: 10%;
+}
+ .khung .nghia .nghiaimage p.nghiamgb {
+	 margin-bottom: 10%;
+}
+ .khung .nghia .nghiaimage p {
+	 color: #eeeeee;
+	 text-align: center;
+}
+ .khung .dao {
+	 width: 100%;
+	 float: left;
+}
+ .khung .dao .daoslide {
+	 float: left;
+}
+ .khung .dao .daoslide .carousel-item .daoleft {
+	 margin-left: 10%;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .dao .daoslide .carousel-item .daoleft {
+		 margin-left: 0%;
+	}
+}
+ @media screen and (max-width: 780px) {
+	 .khung .dao .daoslide .carousel-item .daoleft {
+		 margin-left: 5%;
+	}
+}
+ .khung .dao .daoslide .carousel-item .col-md-2 {
+	 float: left;
+	 margin-right: 3%;
+	 text-align: center;
+}
+ @media screen and (max-width: 780px) {
+	 .khung .dao .daoslide .carousel-item .col-md-2 {
+		 margin-bottom: 10px;
+	}
+}
+ .khung .dao .daoslide .carousel-item .col-md-2:hover {
+	 background: #eeeeee;
+}
+ .khung .dao .daoslide .carousel-item .col-md-2 img {
+	 width: 100%;
+	 height: 200px;
+	 border-radius: 50%;
+	 border: 2px solid pink;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .dao .daoslide .carousel-item .col-md-2 img {
+		 width: 30%;
+		 height: 70px;
+	}
+}
+ @media screen and (width: 768px) {
+	 .khung .dao .daoslide .carousel-item .col-md-2 img {
+		 width: 80%;
+		 height: 70px;
+	}
+}
+ .khung .dao .daoslide .carousel-item .col-md-2 a {
+	 color: #333;
+}
+ .khung .dao .daoslide .carousel-item .col-md-2 a:hover {
+	 color: black;
+}
+ .khung .dao .daoslide .carousel-item .col-md-2 i {
+	 padding: 30px 2px;
+}
+ .khung .dao .daoslide .carousel-item .col-md-2 hr {
+	 float: center;
+	 margin: 0;
+	 width: 70%;
+	 margin-left: 15%;
+	 margin-top: 5%;
+}
+ .khung .dao .daoimg {
+	 float: left;
+	 height: auto;
+	 background: linear-gradient(rgba(249,127,232,0.8),rgba(249,127,232,0.8)), url(img/dao5.jpg) fixed center center;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+	 margin-top: 5%;
+}
+ .khung .dao .daoimg .col-md-7 {
+	 float: left;
+	 margin: 5% 0%;
+}
+ .khung .dao .daoimg .col-md-7 h3 {
+	 text-align: center;
+	 color: #eeeeee;
+	 padding-bottom: 5%;
+}
+ .khung .dao .daoimg .col-md-7 .col-md-10 {
+	 margin: auto;
+}
+ .khung .dao .daoimg .col-md-7 .col-md-10 img {
+	 width: 18%;
+	 height: 80px;
+	 margin-left: 1%;
+	 margin-bottom: 1%;
+	 transition: all 1s;
+}
+ .khung .dao .daoimg .col-md-7 .col-md-10 img:hover {
+	 transform: scale(1.1);
+}
+ @media screen and (max-width: 780px) {
+	 .khung .dao .daoimg .col-md-7 .col-md-10 img {
+		 width: 30%;
+	}
+}
+ .khung .dao .daoimg .col-md-4 {
+	 float: left;
+	 margin: 5% 0%;
+}
+ .khung .dao .daoimg .col-md-4 h3 {
+	 text-align: center;
+	 color: #eeeeee;
+	 padding-bottom: 5%;
+}
+ .khung .dao .daoimg .col-md-4 .carousel-item {
+	 height: 100px;
+}
+ .khung .dao .daoimg .col-md-4 p {
+	 font-family: Courier New, monospace;
+	 color: #eeeeee;
+	 padding: 10px;
+	 text-align: center;
+}
+ .khung .dao .daoimg .col-md-4 p.daop {
+	 font-size: 30px;
+}
+ .khung .dao .daoimg .col-md-4 a.prev5 {
+	 width: 50px;
+	 height: 50px;
+	 margin-left: 30%;
+	 margin-top: 40%;
+	 border-radius: 5px;
+}
+ .khung .dao .daoimg .col-md-4 a.next5 {
+	 width: 50px;
+	 height: 50px;
+	 margin-top: 40%;
+	 margin-right: 30%;
+	 border-radius: 5px;
+}
+ .khung .trung {
+	 width: 100%;
+	 float: left;
+	 height: auto;
+	 background: #333;
+}
+ .khung .trung .col-md-11 {
+	 float: left;
+	 margin-left: 3%;
+	 margin-bottom: 5%;
+}
+ .khung .trung .col-md-11 .col-md-3 {
+	 float: left;
+	 color: #dddddd;
+}
+ .khung .trung .col-md-11 .col-md-3 h4 {
+	 padding: 30px 0px;
+}
+ .khung .trung .col-md-11 .col-md-3 a {
+	 margin: 0;
+	 color: #dddddd;
+}
+ .khung .trung .col-md-11 .col-md-3 hr {
+	 margin: 0;
+	 background: #888;
+	 margin: 10px;
+}
+ .khung .trung .col-md-11 .col-md-3 img {
+	 float: left;
+	 width: 30%;
+	 margin: 1%;
+	 height: 70px;
+	 transition: all 1s;
+}
+ .khung .trung .col-md-11 .col-md-3 img:hover {
+	 transform: scale(1.1);
+}
+ .khung .trung .col-md-11 .col-md-3 i {
+	 clear: both;
+	 float: left;
+	 padding-bottom: 25px;
+}
+ .khung .trung .col-md-11 .col-md-3 span {
+	 font-weight: normal;
+	 padding-left: 10px;
+}
+ .khung .trung .footer {
+	 float: left;
+	 height: auto;
+	 background: #222;
+	 color: #dddddd;
+	 text-align: center;
+}
+ .khung .trung .footer i {
+	 padding: 30px 5px;
+}
+ .khung .trung .footer li {
+	 float: left;
+	 list-style-type: none;
+	 padding: 0px 10px;
+}
+ .khung .trung .footer li a {
+	 color: #dddddd;
+	 float: left;
+	 font-size: 15px;
+	 margin: 0;
+}
+ .khung .trung .footer li.trungleft {
+	 margin-left: 37%;
+}
+ @media screen and (max-width: 480px) {
+	 .khung .trung .footer li.trungleft {
+		 margin-left: 0%;
+	}
+}
+ .khung .trung .footer span {
+	 font-size: 15px;
+	 margin-bottom: 5%;
+}
+ .card :hover{
+ 	transform: scale(1.1);
+ 	transition: all 1.5s;
+ }

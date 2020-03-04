@@ -1,0 +1,32 @@
+.full{
+  background-color: #FFFFCC;
+  height: 500px;
+  margin-bottom: 30px;
+  color: #0000DD;
+  font-weight: bold;
+}
+.col-md-6{
+  float: left;
+}
+.col-md-6 h4{
+  color:#006699;
+  padding-top: 20%;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  padding: 50px;
+  /*background-color: green;*/
+  transition: transform .2s;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}

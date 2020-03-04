@@ -1,0 +1,51 @@
+.container{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: yellow;
+}
+#td1{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	background: blue;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+ul{
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+.list-group-item{
+	border: none;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #00e600;
+	padding: 0;
+}
+#link1{
+	color: primary;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+#link1:hover{
+	color: red;
+}
+select{
+	margin: 10px 10px 10px 0;
+	float: left;
+}
+#nut1{
+	margin: 10px 10px 10px 20px;
+	height: 25px;
+	line-height: 20px;
+	float: left;
+}
